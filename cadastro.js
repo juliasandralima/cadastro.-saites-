@@ -1,5 +1,3 @@
-
-
 function verificar() {
 
     let Nome = document.getElementById('Nome').value;
