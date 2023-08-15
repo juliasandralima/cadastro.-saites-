@@ -5,58 +5,40 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='cadastro.css'>
-    <script src='cadastro.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.html'>
+    <script src='index.html'></script>
 </head>
 <body>
- <form></form>
-    <h1>Cadastre-se</h1>
-     <label>Nome</label><br>
-    <input type="text" id="Nome" autocoplete="off"><br>
-
-     <label>Data de Nascimento</label><br>
-     <input type="date" id="dtnasc" autocomplete="off"><br>
-
-     <label>CPF</label><br>
-     <input type="number" id="cpf" autocomplete="off"><br>
-
-     <label>Email</label><br>
-     <input type="email" id="Email" autocomplete="off"><br>
-
-     <label>Endereco</label><br>
-     <input type="text" id="Endereco" autocomplete="off"><br>
-
-     <label>cep</label><br>
-     <input type="number" id="cep" autocomplete="off"><br>
-
-     <label>telefone</label><br>
-     <input type="tel" id="fone" autocomplete="off"><br>
-
-     <label>Complemento</label><br>
-     <input type="text" id="complemento" autocomplete="off"><br>
-
-     <label>Bairro</label><br>
-     <input type="text" id="Bairro" autocomplete="off"><br>
-     
-     <label>cidade</label><br>
-     <input type="text" id="cidade"autocomplete="off"><br>
-
-     <label>Estado</label><br>
-     <input type="text" id="Estado" autocomplete="off"><br>
-
-     <label>ponto de Referencia</label><br>
-     <input type="text" id="ptref" autocomplete="off"><br>
-
-     <label>senha</label><br>
-     <input type="password" id="senha" autocomplete="off"><br>
-
-     <label>Confirmação De Senha</label><br>
-
-     <input type="password" id="Confirmação"autocomplete="off"><br>
-     <button onclick="verificar()"><a href="">Continue</a></button><br>
-     <a href="" id="esqueceu">Esqueceu a senha ?</a>
+    <h1>CADASTRO DE CLIENTES</h1> 
+    <form class="form-control">
+        <input type="text" placeholder="Nome completo">
+        <br>
+        <input type="email" id="loginEmail" placeholder="Email" class="form-control" required />
+        <br>
+        <input type="password" id="loginSenha" placeholder="Senha" class="form-control"required/>
+        <br>
+        <input type="tel" id="fone" placeholder="Telefone">
+        <br>
+        <input type="tel" id="cpf"placeholder="cpf">
+        <br>
+        <input type="tel"id="endereço completo "placeholder="endereço completo">
+        <br>
+        <input type="tel"id="cep"placeholder="cep">
+        <br>
+        <input type="tel"id="número"placeholder="número">
+        <br>
+        <input type="tel"id="complemento"placeholder="complemento">
+        <br>
+        <input type="tel"id="bairro"placeholder="bairro">
+        <br>
+        <input type="tel"id="cidade"placeholder="cidade">
+        <br>
+        <input type="tel"id="estado"placeholder="estado">
+        <br>
+        <input type="tel"id="ponto de referencia"placeholder="ponto de referencia">
+        <button onclick="verificar()" class="btn btn-warning">ACESSAR</button>
     </form>
-  </body>
+</body>
 </html>
 
 

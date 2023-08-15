@@ -1,25 +1,11 @@
-button{
-    background-color: black(235,48,48);
+#cadastro{
+    text-align: center;
+    color: black;
+    background: aqua;
 }
-h1{
-    padding: 9px;
-    font:size 15px;
-    font-family:input;
-    color: brown;
+form{
+    text-align: center;
 }
-boody{
-    background-color: red(154,140,167);
-    
+body{
+    background:black;
 }
-
-
-
-    
-    
-    
-
-
-
-    
-
-    
