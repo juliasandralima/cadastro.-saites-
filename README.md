@@ -5,6 +5,7 @@ cadastros para saites
 pagina de incrição 
 
 # projeto de form-cadastro 
+![](img/image.png)
 
 projeto criando para voce ter uma ideia de oque é uma página de cadastro 
 
